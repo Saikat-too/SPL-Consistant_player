@@ -91,7 +91,7 @@ int main()
     float x  =q[0];
     for(int i = 0;i<5;i++)
     {
-        if(x<=q[i])
+        if(x>=q[i])
             {
                  x = q[i];
                 j= i+1;
